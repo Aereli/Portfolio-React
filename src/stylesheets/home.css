@@ -1,0 +1,29 @@
+*{
+  font-family: 'Megrim', cursive;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.home-header {
+  text-align: center;
+}
+
+.home-nav-link {
+  text-align: center;
+}
+
+.home-face-image{
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
+
+.home-footer{
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+}

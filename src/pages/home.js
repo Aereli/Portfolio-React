@@ -1,10 +1,26 @@
 import React from 'react'
+import { BrowserRouter as Router} from 'react-router-dom'
+import '../stylesheets/home.css'
+import Face from '../images/face_black.svg'
+// import Work from '../pages/work'
 
 class Home extends React.Component{
   render(){
     return(
       <div>
-        <h1> this is the home page</h1>
+        <Router>
+        
+            <h1 className="home-header"><a href ="/">Oyanadel</a></h1>
+            {/* <a><h1><NavLink to="/work">work</NavLink></h1></a> */}
+            <h1 className="home-nav-link"><a href ="/work">Work</a></h1>
+        </Router>
+        <div>
+          <img src={Face} alt="face" className="home-face-image" />
+        </div> 
+        <footer className="home-footer">
+            © {new Date().getFullYear()}, from scratch by Eric
+              {` `}
+        </footer>
       </div>
     )
   }
