@@ -2,6 +2,8 @@ import React from 'react'
 import '../stylesheets/work.css'
 import Shipship from '../images/shipship.png'
 import Barhop from '../images/barhop.png'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 class Work extends React.Component{
   render(){
@@ -18,6 +20,9 @@ class Work extends React.Component{
           <div>
             <a href="http://barhop-wyncode.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={Barhop} alt="shiphip"></img></a>
             <p>Team of three developers to create information of nearest bars withing user location entered. shows good use of REST with the Yelp API. Two week project</p>
+            <i className="fab fa-github"></i>
+            <FontAwesomeIcon icon={'fab fa-github'} />
+
           </div>
         </div>
       </div>
