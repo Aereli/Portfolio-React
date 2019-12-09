@@ -2,15 +2,16 @@
   font-family: 'Megrim', cursive;
 }
 
-.home-header{
+a{
   text-decoration: none;
   color: black;
-  /* font-family: 'Megrim', cursive; */
 }
 
-.home-nav-link{
-  text-decoration: none;
-  color: black;
+.home-header {
+  text-align: center;
+}
+
+.home-nav-link {
   text-align: center;
 }
 

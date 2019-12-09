@@ -2,15 +2,21 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Home from './pages/home'
-// import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Work from './pages/work'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 
 const App = () => {
-  return (
-    <div className="App">
-     <Home/>
+  return(
+    <div>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route path="/work" component={Work}/>
+        </Switch>
+      </BrowserRouter>
     </div>
   )
 }
 
-export default App;
+export default App
