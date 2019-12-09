@@ -11,8 +11,14 @@ class Work extends React.Component{
 
         <h3 className="work-title"> Past Web Projects</h3>
         <div className="work-image-container">
-          <img src={Shipship} alt="shiphip"></img>
-          <img src={Barhop} alt="shiphip"></img>
+          <div>
+            <img src={Shipship} alt="shiphip"></img>
+              <p> Site displays understandment of REST from the EasyPost API and demonstrates a solid foundation of a Rails database of user information.</p>
+          </div>
+          <div>
+            <img src={Barhop} alt="shiphip"></img>
+            <p>Team of three developers to create information of nearest bars withing user location entered. shows good use of REST with the Yelp API. Two week project</p>
+          </div>
         </div>
       </div>
     )
