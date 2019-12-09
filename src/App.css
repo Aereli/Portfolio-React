@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  user-select: none;
+  font-family: 'Megrim', cursive;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
