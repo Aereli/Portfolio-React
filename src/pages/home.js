@@ -9,7 +9,6 @@ class Home extends React.Component{
     return(
       <div>
         <Router>
-        
             <h1 className="home-header"><a href ="/">Oyanadel</a></h1>
             {/* <a><h1><NavLink to="/work">work</NavLink></h1></a> */}
             <h1 className="home-nav-link"><a href ="/work">Work</a></h1>
