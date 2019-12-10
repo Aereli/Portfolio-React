@@ -9,7 +9,8 @@ class Home extends React.Component{
       <div>
         <Router>
             <h1 className="home-header"><a href ="/">Oyanadel</a></h1>
-            <h1 className="home-nav-link"><a href ="/work">Work</a></h1>
+            <h2 className="home-nav-link"><a href ="/work">work</a></h2>
+            <h2 className="home-nav-link"><a href ="/contact">contact</a></h2>
         </Router>
         <div>
           <img src={Face} alt="face" className="home-face-image" />
