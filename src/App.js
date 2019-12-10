@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Home from './pages/home'
 import Work from './pages/work'
+import Contact from './pages/contact'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 
@@ -13,6 +14,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/work" component={Work}/>
+          <Route path="/contact" component={Contact}/>
         </Switch>
       </BrowserRouter>
     </div>
