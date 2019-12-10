@@ -17,15 +17,24 @@
   margin: 3rem;
 }
 
-.work-image-container img{
+.work-projects{
   width: 500px;
   border: 3px solid #9aaec0;
   cursor: pointer;
   border-radius: 30px;
 }
 
-.work-image-container img:hover{
+.work-projects:hover{
   width:100%;
   background-color:#000;
+  opacity:0.5;
+}
+
+.work-github img{
+  border: none;
+  width: 50px;
+}
+
+.work-github img:hover{
   opacity:0.5;
 }
