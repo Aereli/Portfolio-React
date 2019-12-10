@@ -6,8 +6,8 @@ class Contact extends React.Component{
     return(
       <>
         <h1 className="contact-oyanadel"><a href ="/">Oyanadel</a></h1>
-        <h1 className="contact-header">contact</h1>
-        <p className="contact-title">Send me a message!</p>
+        {/* <h3 className="contact-header">contact</h3> */}
+        <h3 className="contact-title">Send me a message!</h3>
         <div className="contact-form">
           <form name="contact" method="post" action="POST" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
@@ -18,7 +18,7 @@ class Contact extends React.Component{
               <label>Your Email: <input type="email" name="email"/></label>
             </p>
             <p>
-              <label>Message: <textarea name="message"></textarea></label>
+              <textarea name="message" placeholder="message me here.."></textarea>
             </p>
             <p>
               <button type="submit">Send</button>
