@@ -1,0 +1,42 @@
+.contact-oyanadel{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.contact-title{
+  text-align: center;
+}
+
+.contact-form{
+  text-align: center;
+  font-size: 1rem;
+}
+
+.contact-form label{
+font-weight: 700;
+}
+
+.contact-form input{
+  outline: none;
+  width: 300px;
+  text-indent: .5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contact-form textarea{
+  outline: none;
+  width: 400px;
+  height: 100px;
+  text-indent: .5rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.contact-form button{
+  font-weight: 700;
+  font-size: 1rem;
+  outline: none;
+  width: 70px;
+  cursor: pointer;
+}
