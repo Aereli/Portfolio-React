@@ -21,8 +21,14 @@ class Home extends React.Component{
         }
       </a>
       </h1>
-          <h2 className="home-nav-link"><a href="/work">work</a></h2>
-          <h2 className="home-nav-link"><a href="/contact">contact</a></h2>
+        <div className="nav-link-container">
+          <h2 className="home-nav-link">
+            <a href="/work">work</a>
+          </h2>
+          <h2 className="home-nav-link">
+            <a href="/contact">contact</a>
+          </h2>
+        </div>
         </Router>
         <div>
           <img src={Face} alt="face" className="home-face-image" />
