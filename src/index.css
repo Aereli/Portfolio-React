@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.each-letter {
+  transition: 1s;
+}
+
+.each-letter:hover {
+  transition: color 0s;
+  color:green;
+  font-size: 3.5rem;
+}
+
+.each-letter:nth-child(1n):hover{
+  color: #84DCC6;
+}
+
+.each-letter:nth-child(2n):hover{
+  color: #3f4f94;
+}
+
+.each-letter:nth-child(3n):hover{
+  color: #FFA69E;
+}
