@@ -8,10 +8,19 @@ import Github from '../images/github-brands.svg'
 
 class Work extends React.Component{
   render(){
+    const string = "oyanadel"
+    const splitstring = string.split("")
     return(
       <div>
-        <h1 className="work-header"><a href ="/">Oyanadel</a></h1>
-
+        <h1 className="work-header">
+          <a href="/">
+            {
+              splitstring.map(letter => (
+                <span className="each-letter">{letter}</span>
+              ))
+            }
+          </a>
+        </h1>
         <h3 className="work-title"> Past Web Projects</h3>
         <div className="work-image-container">
           <div>
