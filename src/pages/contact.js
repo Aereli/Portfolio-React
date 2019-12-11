@@ -1,5 +1,7 @@
 import React from 'react'
 import '../stylesheets/contact.css'
+import Github from '../images/github-brands.svg'
+
 
 class Contact extends React.Component{
   render(){
@@ -33,7 +35,10 @@ class Contact extends React.Component{
               <button type="submit">Send</button>
             </p>
           </form>
-        </div>
+          <div className="work-github">
+            <a href="https://github.com/Aereli"><img src={Github} alt="github-icon"></img></a> 
+            </div>        
+          </div>
       </>
     )
   }

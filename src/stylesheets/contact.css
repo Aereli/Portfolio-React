@@ -40,3 +40,15 @@ font-weight: 700;
   width: 70px;
   cursor: pointer;
 }
+
+.work-github img{
+  border: none;
+  width: 50px;
+}
+
+.work-github img:hover{
+  opacity:0.5;
+  /* color: #84DCC6; */
+  color: red;
+
+}
