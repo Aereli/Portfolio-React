@@ -7,7 +7,7 @@ import Face from '../images/face_black.svg'
 class Home extends React.Component{
   
   render(){
-    const string = "Oyanadel"
+    const string = "oyanadel"
     const splitstring = string.split("")
     return(
       <div>
