@@ -10,13 +10,18 @@
   margin-bottom: 5rem;
 }
 
-.work-image-container{
+.work-image-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 500px);
   justify-content: center;  
   text-align: center;
   grid-gap: 5rem;
   margin: 3rem;
+}
+
+.work-image-container p{
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .work-projects{
