@@ -10,10 +10,12 @@
 .contact-form{
   text-align: center;
   font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .contact-form label{
-font-weight: 700;
+font-family: 'Raleway', sans-serif;
 }
 
 .contact-form input{
@@ -21,7 +23,8 @@ font-weight: 700;
   width: 300px;
   text-indent: .5rem;
   font-size: 1rem;
-  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .contact-form textarea{
@@ -30,7 +33,7 @@ font-weight: 700;
   height: 100px;
   text-indent: .5rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
 }
 
 .contact-form button{

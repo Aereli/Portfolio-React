@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router} from 'react-router-dom'
 import '../stylesheets/home.css'
 import Face from '../images/face_three_parts.svg'
-import Github from '../images/github-brands.svg'
+// import Github from '../images/github-brands.svg'
 import { IoLogoLinkedin } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 
