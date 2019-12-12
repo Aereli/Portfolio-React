@@ -1,5 +1,3 @@
-
-
 .home-header {
   text-align: center;
   font-size: 3rem;
@@ -10,19 +8,17 @@
   display: flex;
   text-align: center;
   justify-content: space-evenly;
-  /* width: 500px; */
-  /* margin: 0; */
-}
-
-.home-nav-link {
-  /* text-align: center; */
 }
 
 .home-face-image{
-  width: 450px;
+  margin-left: 50%;
+  width: 300px;
   display: block;
   margin-left: auto;
-  margin-right: auto }
+  margin-right: auto;
+  animation: test 5s infinite;
+  transition: 1s;
+}
 
 .home-footer{
   text-align: center;
@@ -31,6 +27,12 @@
   width: 100%;
 }
 
-
-/* _____________________________ */
-
+@keyframes test{
+  0% { transform: scale(1);}
+  5% { transform: skewX(1deg)}
+  15% { transform: skewX(2deg)}
+  50% { transform: scale(1.02)}
+  55% { transform: skewY(1deg)}
+  65% { transform: skewY(2deg)}
+  100% { transform: scale(1)}
+}
