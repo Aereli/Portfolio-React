@@ -32,3 +32,14 @@
   50% { transform: scale(1.02)}
   100% { transform: scale(1)}
 }
+
+.footer-github{
+  display: inline-block;
+  margin:1rem;
+  width: 35px;
+}
+
+.footer-github:hover {
+  /* color: red; */
+  opacity: .3;
+}
