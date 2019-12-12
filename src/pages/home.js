@@ -1,10 +1,11 @@
 import React from 'react'
 import { BrowserRouter as Router} from 'react-router-dom'
 import '../stylesheets/home.css'
-// import Face from '../images/face_black.svg'
 import Face from '../images/face_three_parts.svg'
 import Github from '../images/github-brands.svg'
-import Linkedin from '../images/linkedin.svg'
+import { IoLogoLinkedin } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
+
 
 class Home extends React.Component{
   
@@ -37,11 +38,10 @@ class Home extends React.Component{
         </div> 
         <footer className="home-footer">
           <div>
-            <a href="https://www.linkedin.com/in/eric-oyanadel/" ><img src={Linkedin} alt="face" className="footer-github"/></a>
-            <a href="https://github.com/Aereli" ><img src={Github} alt="face" className="footer-github"/></a>
+            <a href="https://www.linkedin.com/in/eric-oyanadel/" target="_blank" rel="noopener noreferrer" ><IoLogoLinkedin className="footer-github"/></a>
+            <a href="https://github.com/Aereli" target="_blank" rel="noopener noreferrer" ><FaGithub className="footer-github"/></a>
           </div>
-            © {new Date().getFullYear()}, from scratch by Eric
-              {` `}
+            © {new Date().getFullYear()}, from scratch by Eric   
         </footer>
       </div>
     )

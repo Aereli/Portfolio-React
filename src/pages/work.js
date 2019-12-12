@@ -2,7 +2,6 @@ import React from 'react'
 import '../stylesheets/work.css'
 import Shipship from '../images/shipship.png'
 import Barhop from '../images/barhop.png'
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Github from '../images/github-brands.svg'
 
 
