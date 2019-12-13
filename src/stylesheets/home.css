@@ -5,6 +5,10 @@
   font-family: Earth-Orbiter;
 }
 
+.home-header-desc{
+  text-align: center;
+}
+
 .nav-link-container{
   display: flex;
   text-align: center;
