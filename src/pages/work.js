@@ -26,7 +26,7 @@ class Work extends React.Component{
             <a href="https://wyn-shipship.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="work-projects" src={Shipship} alt="shiphip"></img></a>
               <p> Site displays understandment of REST from the EasyPost API and demonstrates a solid foundation of a Rails database of user information.</p>
               <div className="work-github">
-                <a href="https://github.com/wyncode/c35_ship_ship" target="_blank" rel="noopener noreferrer" ><img src={Github} alt="github-icon"></img></a> 
+                <a href="https://github.com/Aereli/ShipShip" target="_blank" rel="noopener noreferrer" ><img src={Github} alt="github-icon"></img></a> 
               </div>
           </div>
           <div>
