@@ -12,11 +12,11 @@
 }
 
 .home-face-image{
-  margin-left: 50%;
   width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 3rem;
   animation: test 5s infinite;
   transition: 1s;
 }
@@ -39,7 +39,7 @@
   margin: 1rem;
   width: 35px;
   height: 35px;
-  transition: 1s;
+  transition: .5s;
 }
 
 .footer-github:hover {
