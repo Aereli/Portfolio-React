@@ -35,10 +35,9 @@ class Work extends React.Component{
             </a>
             <p>Team of three developers to create information of nearest bars within user location entered. shows good use of REST with the Yelp API. Two week project</p>
             <div className="work-github">
-              <a href="https://github.com/wyncode/c35_eric_robert_william" target="_blank" rel="noopener noreferrer"><img src={Github} alt="github-icon"></img></a> 
+              <a href="https://github.com/Aereli/Bar_hop_final" target="_blank" rel="noopener noreferrer"><img src={Github} alt="github-icon"></img></a> 
             </div>
           </div>
-
           <div className="image-container">
             <a href="https://aereli.github.io/Tip-Calculator/" target="_blank" rel="noopener noreferrer">
               <img className="work-projects" src={Splttr} alt="Splttr" ></img>
@@ -48,7 +47,6 @@ class Work extends React.Component{
               <a href="https://github.com/Aereli/Tip-Calculator" target="_blank" rel="noopener noreferrer"><img src={Github} alt="github-icon"></img></a> 
             </div>
           </div>
-
         </div>
       </div>
     )
