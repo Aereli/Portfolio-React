@@ -12,24 +12,47 @@ code {
     monospace;
 }
 
-.each-letter {
+.each-letter-lrg{
   transition: 1s;
 }
 
-.each-letter:hover {
+.each-letter-lrg:hover {
   transition: color 0s;
   color:green;
-  font-size: 3.5rem;
+  font-size: 3.3rem;
 }
 
-.each-letter:nth-child(1n):hover{
+.each-letter-lrg:nth-child(1n):hover{
   color: #84DCC6;
 }
 
-.each-letter:nth-child(2n):hover{
+.each-letter-lrg:nth-child(2n):hover{
   color: #3f4f94;
 }
 
-.each-letter:nth-child(3n):hover{
+.each-letter-lrg:nth-child(3n):hover{
+  color: #FFA69E;
+}
+
+
+.each-letter-sml{
+  transition: 1s;
+}
+
+.each-letter-sml:hover {
+  transition: color 0s;
+  color:green;
+  font-size: 2rem;
+}
+
+.each-letter-sml:nth-child(1n):hover{
+  color: #84DCC6;
+}
+
+.each-letter-sml:nth-child(2n):hover{
+  color: #3f4f94;
+}
+
+.each-letter-sml:nth-child(3n):hover{
   color: #FFA69E;
 }

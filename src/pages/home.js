@@ -12,6 +12,10 @@ class Home extends React.Component{
   render(){
     const string = "oyanadel" 
     const splitstring = string.split("")
+    const string2 = "work"
+    const splitString2 = string2.split("")
+    const string3 = "contact"
+    const splitString3 = string3.split("")
     return(
       <div>
         <Router>
@@ -19,18 +23,30 @@ class Home extends React.Component{
             <a href="/">
               {
                 splitstring.map(letter => (
-                  <span className="each-letter">{letter}</span>
+                  <span className="each-letter-lrg">{letter}</span>
                 ))
               }
             </a>
           </h1>
           <h2 className="home-header-desc">full stack web developer</h2>
-        <div className="nav-link-container">
+          <div className="nav-link-container">
+            <h2 className="home-nav-link">
+              <a href="/work">
+                {
+                  splitString2.map(letter => (
+                    <span className="each-letter-sml">{letter}</span>
+                  ))
+                }
+              </a>         
+            </h2>
           <h2 className="home-nav-link">
-            <a href="/work">work</a>
-          </h2>
-          <h2 className="home-nav-link">
-            <a href="/contact">contact</a>
+            <a href="/contact">
+              {
+                splitString3.map(letter => (
+                  <span className="each-letter-sml">{letter}</span>
+                ))
+              }
+            </a>   
           </h2>
         </div>
         </Router>

@@ -15,7 +15,7 @@ class Work extends React.Component{
           <a href="/">
             {
               splitstring.map(letter => (
-                <span className="each-letter">{letter}</span>
+                <span className="each-letter-lrg">{letter}</span>
               ))
             }
           </a>
