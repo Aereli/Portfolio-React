@@ -50,7 +50,7 @@ class Home extends React.Component{
           </h2>
         </div>
         </Router>
-        <div>
+        <div className="home-face-container">
           <img src={Face} alt="face" className="home-face-image"/>
         </div> 
         <footer className="home-footer">

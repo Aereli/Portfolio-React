@@ -15,8 +15,19 @@
   justify-content: space-evenly;
 }
 
+.home-face-container{
+  height: 500px;
+}
+
+@media(max-width:420px){
+  .home-face-container{
+    height: 250px;
+  }
+}
+
 .home-face-image{
-  width: 300px;
+  width: 100%;
+  height: inherit;
   display: block;
   margin-left: auto;
   margin-right: auto;
