@@ -25,14 +25,14 @@
   }
 }
 
-@media(max-width:1300px){
+@media(max-width:1500px){
   .home-face-container{
     height: 300px;
   }
 }
 
 .home-face-image{
-  width: 100%;
+  width: 300px;
   height: inherit;
   display: block;
   margin-left: auto;
