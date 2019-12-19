@@ -25,6 +25,12 @@
   }
 }
 
+@media(max-width:1300px){
+  .home-face-container{
+    height: 300px;
+  }
+}
+
 .home-face-image{
   width: 100%;
   height: inherit;
