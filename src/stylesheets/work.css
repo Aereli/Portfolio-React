@@ -26,7 +26,7 @@
 .work-projects{
   width: 500px;
   height: 300px;
-  border: 3px solid #9aaec0;
+  /* border: 3px solid #9aaec0; */
   cursor: pointer;
   border-radius: 30px;
 }
@@ -46,3 +46,53 @@
   opacity:0.5;
 }
 
+/* ---------------------------- */
+
+.card{
+  position: relative;
+  cursor: pointer;
+  width: 500px;
+  height: 300px;
+} 
+
+.front img{
+   border-radius: 30px;
+}
+
+.back-content-middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.front,.back{
+  position: absolute;
+  width: 100%;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transition: transform .6s linear;
+}
+
+.front img{
+  height: 100%;
+}
+
+.front {
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.back{
+  background: white;
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
