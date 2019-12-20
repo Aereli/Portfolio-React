@@ -2,7 +2,6 @@ import React from 'react'
 import '../stylesheets/work.css'
 import Shipship from '../images/shipship.png'
 import Barhop from '../images/barhop.png'
-import Github from '../images/github-brands.svg'
 import Splttr from '../images/splttr.png'
 import { FaGithub } from "react-icons/fa";
 
@@ -72,21 +71,6 @@ class Work extends React.Component{
               </div>
             </div>
           </div>
-{/* 
-          <div className="card">
-            <div className="front">
-              <img src={Splttr} alt="Splttr" ></img>
-            </div>
-            <div className="back">
-              <div className="back-content-middle">
-                <h2>Content and some other text</h2>
-                <div class="project-anchors">
-                  <a href="https://github.com/Aereli" target="_blank" rel="noopener noreferrer" ><FaGithub className="footer-github"/></a>
-                  <a href="https://github.com/Aereli" target="_blank" rel="noopener noreferrer" ><FaGithub className="footer-github"/></a>
-                </div>
-              </div>
-            </div>
-          </div> */}
 
         </div>
       </div>
