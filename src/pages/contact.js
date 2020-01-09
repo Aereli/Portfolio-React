@@ -1,20 +1,13 @@
 import React from 'react'
 import '../stylesheets/contact.css'
+import SplitString from '../components/stringSplitter'
 
 class Contact extends React.Component{
   render(){
-    const string = "oyanadel"
-    const splitstring = string.split("")
     return(
       <>
         <h1 className="contact-oyanadel">
-          <a href="/">
-            {
-              splitstring.map(letter => (
-                <span className="each-letter-lrg">{letter}</span>
-              ))
-            }
-          </a>
+          <SplitString />
         </h1>
         <h3 className="contact-title">Send me a message!</h3>
         <div className="contact-form">
