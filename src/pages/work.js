@@ -4,22 +4,14 @@ import Shipship from '../images/shipship.png'
 import Barhop from '../images/barhop.png'
 import Splttr from '../images/splttr.png'
 import { FaGithub, FaLink } from "react-icons/fa";
-
+import SplitString from '../components/stringSplitter'
 
 class Work extends React.Component{
   render(){
-    const string = "oyanadel"
-    const splitstring = string.split("")
     return(
       <div>
         <h1 className="work-header">
-          <a href="/">
-            {
-              splitstring.map(letter => (
-                <span className="each-letter-lrg">{letter}</span>
-              ))
-            }
-          </a>
+          <SplitString />
         </h1>
         <h3 className="work-title"> Past Web Projects</h3>
         

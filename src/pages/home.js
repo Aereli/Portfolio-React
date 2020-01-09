@@ -5,13 +5,12 @@ import Face from '../images/face_three_parts.svg'
 // import Github from '../images/github-brands.svg'
 import { IoLogoLinkedin } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
+import SplitString from '../components/stringSplitter'
 
 
 class Home extends React.Component{
   
   render(){
-    const string = "oyanadel" 
-    const splitstring = string.split("")
     const string2 = "work"
     const splitString2 = string2.split("")
     const string3 = "contact"
@@ -20,13 +19,7 @@ class Home extends React.Component{
       <div>
         <Router>
           <h1 className="home-header">
-            <a href="/">
-              {
-                splitstring.map(letter => (
-                  <span className="each-letter-lrg">{letter}</span>
-                ))
-              }
-            </a>
+            <SplitString />
           </h1>
           <h2 className="home-header-desc">full stack web developer</h2>
           <div className="nav-link-container">
