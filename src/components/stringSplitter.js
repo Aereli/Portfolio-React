@@ -1,7 +1,17 @@
+import React from 'react'
+
 function SplitString(){
-	render(
+		const string = "oyanadel"
+    const splitstring = string.split("")
+	return(
 		<>
-			<p> this splits the string!</p>
+			<a href="/">
+				{
+					splitstring.map(letter => (
+						<span className="each-letter-lrg">{letter}</span>
+					))
+				}
+			</a>	
 		</>
 	)
 }
