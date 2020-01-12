@@ -15,6 +15,8 @@ code {
 
 .each-letter-lrg{
   transition: 1s;
+  user-select: none;
+  font-family: 'Megrim', cursive;
 }
 
 .each-letter-lrg:hover {
