@@ -1,9 +1,16 @@
 import React from 'react'
+import '../stylesheets/uses.css'
+import SplitString from '../components/stringSplitter'
+
 
 class Uses extends React.Component{
   render(){
     return(
       <>
+      <div className="uses-container">
+        <div className="uses-header">
+          <SplitString />
+        </div>
         <h1>Uses</h1>
           <p>Here's my setup and software that I use.</p>
         <h3> Editors + Terminal</h3>
@@ -62,6 +69,7 @@ class Uses extends React.Component{
             Apple Watch 3
           </li>
         </ul>
+      </div>
       </>
     )
   }

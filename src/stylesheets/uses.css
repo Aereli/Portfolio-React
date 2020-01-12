@@ -1,0 +1,21 @@
+.uses-header{
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem 0 1rem 0;
+  font-family: Earth-Orbiter;
+}
+
+a{
+  /* text-decoration: none; */
+  color: teal;
+}
+
+ul{
+  margin-left: 3rem;
+}
+
+.uses-container{
+  margin-left: 3rem;
+
+}
+
