@@ -24,7 +24,7 @@ class Home extends React.Component{
           <h2 className="home-header-desc">full stack web developer</h2>
           <div className="nav-link-container">
             <h2 className="home-nav-link">
-              <a href="/work">
+              <a index="home" href="/work">
                 {
                   splitString2.map(letter => (
                     <span className="each-letter-sml">{letter}</span>
@@ -33,7 +33,7 @@ class Home extends React.Component{
               </a>         
             </h2>
           <h2 className="home-nav-link">
-            <a href="/contact">
+            <a index="home" href="/contact">
               {
                 splitString3.map(letter => (
                   <span className="each-letter-sml">{letter}</span>
@@ -48,8 +48,8 @@ class Home extends React.Component{
         </div> 
         <footer className="home-footer">
           <div>
-            <a href="https://www.linkedin.com/in/eric-oyanadel/" target="_blank" rel="noopener noreferrer" ><IoLogoLinkedin className="footer-github"/></a>
-            <a href="https://github.com/Aereli" target="_blank" rel="noopener noreferrer" ><FaGithub className="footer-github"/></a>
+            <a index="home" href="https://www.linkedin.com/in/eric-oyanadel/" target="_blank" rel="noopener noreferrer" ><IoLogoLinkedin className="footer-github"/></a>
+            <a index="home" href="https://github.com/Aereli" target="_blank" rel="noopener noreferrer" ><FaGithub className="footer-github"/></a>
           </div>
             © {new Date().getFullYear()}, from scratch by Eric   
         </footer>
