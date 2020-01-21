@@ -11,31 +11,34 @@
 }
 
 .work-image-container {
+  margin: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 500px);
-  justify-content: center;  
+  /* grid-template-columns: repeat(auto-fit, 200px); */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* justify-content: center;   */
   text-align: center;
-  grid-gap: 5rem;
-  margin: 3rem;
+  grid-gap: 2rem;
+  /* margin: 3rem; */
 }
 
 .work-image-container p{
   font-family: 'Raleway', sans-serif;
+
 }
 
 .work-projects{
-  width: 500px;
-  height: 300px;
+  width: 350px;
+  height: 200px;
   /* border: 3px solid #9aaec0; */
   cursor: pointer;
-  border-radius: 30px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 }
 
-.work-projects:hover{
+/* .work-projects:hover{
   width:100%;
   background-color:#000;
   opacity:0.5;
-}
+} */
 
 .work-github img{
   border: none;
@@ -47,7 +50,7 @@
 }
 
 /* ---------------------------- */
-
+/* 
 .card{
   position: relative;
   cursor: pointer;
@@ -95,4 +98,4 @@
 
 .card:hover > .back{
   transform: perspective(600px) rotateY(0deg);
-}
+} */
