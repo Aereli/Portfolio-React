@@ -10,6 +10,12 @@
   margin-bottom: 5rem;
 }
 
+.work-title-two{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #846C5B;
+}
+
 .work-image-container {
   margin: 1rem;
   display: grid;
@@ -53,6 +59,7 @@
 .back-content-middle{
   position: absolute;
   width: 300px;
+  text-align: center;
 }
 
 .front,.back{
