@@ -21,20 +21,20 @@ code {
 
 .each-letter-lrg:hover {
   transition: color 0s;
-  color:green;
+  color: #443742;
   font-size: 3.3rem;
 }
 
 .each-letter-lrg:nth-child(1n):hover{
-  color: #84DCC6;
+  color: #443742;
 }
 
 .each-letter-lrg:nth-child(2n):hover{
-  color: #3f4f94;
+  color: #B3CBB9;
 }
 
 .each-letter-lrg:nth-child(3n):hover{
-  color: #FFA69E;
+  color: #DCCCA3;
 }
 
 
@@ -44,18 +44,18 @@ code {
 
 .each-letter-sml:hover {
   transition: color 0s;
-  color:green;
+  color: #443742;
   font-size: 2rem;
 }
 
 .each-letter-sml:nth-child(1n):hover{
-  color: #84DCC6;
+  color: #443742;
 }
 
 .each-letter-sml:nth-child(2n):hover{
-  color: #3f4f94;
+  color: #B3CBB9;
 }
 
 .each-letter-sml:nth-child(3n):hover{
-  color: #FFA69E;
+  color: #DCCCA3;
 }
