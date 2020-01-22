@@ -14,6 +14,7 @@ class Work extends React.Component{
           <SplitString />
         </h1>
         <h3 className="work-title"> Past Web Projects</h3>
+        <h4 className="work-title-two"> Please be patient as links load. They are on a free tier. </h4>
         
         <div className="work-image-container">
           <div className="card">
@@ -22,7 +23,12 @@ class Work extends React.Component{
             </div>
             <div className="back">
               <div className="back-content-middle">
-                <p> Site displays understandment of REST concept from the EasyPost API and a foundation of a Rails database of user information.</p>
+                <h4>Tools Used</h4>
+                <p>React Js</p>
+                <p>React Spring + React Scroll</p>
+                <p>Ruby on Rails</p>
+                <p>Devise Gem</p>
+                <p>FormSpree</p>
                 <div className="work-github">
                   <a href="https://wyn-shipship.herokuapp.com/" target="_blank" rel="noopener noreferrer"><FaLink className="footer-github"/></a>
                   <a href="https://github.com/Aereli/ShipShip" target="_blank" rel="noopener noreferrer" ><FaGithub className="footer-github"/></a>
@@ -37,7 +43,9 @@ class Work extends React.Component{
             </div>
             <div className="back">
               <div className="back-content-middle">
-                <p>Team of three developers to create information of nearest bars within user location entered. shows good use of REST with the Yelp API. Two week project</p>
+              <h4>Tools Used</h4>
+                <p>React Js</p>
+                <p>HTML + CSS</p>
                 <div className="work-github">
                   <a href="http://barhop-wyncode.herokuapp.com/" target="_blank" rel="noopener noreferrer"><FaLink className="footer-github"/></a>
                   <a href="https://github.com/Aereli/Bar_hop_final" target="_blank" rel="noopener noreferrer" ><FaGithub className="footer-github"/></a>
@@ -52,7 +60,9 @@ class Work extends React.Component{
             </div>
             <div className="back">
               <div className="back-content-middle">
-                <p>Nice little Tip calculator with great example of Readline Sync</p>
+              <h4>Tools Used</h4>
+                <p>Vanilla Javascript</p>
+                <p>CSS</p>
                 <div className="work-github">
                   <a href="https://aereli.github.io/Tip-Calculator/" target="_blank" rel="noopener noreferrer"><FaLink className="footer-github"/></a>
                   <a href="https://github.com/Aereli/Tip-Calculator"target="_blank" rel="noopener noreferrer" ><FaGithub className="footer-github"/></a>
