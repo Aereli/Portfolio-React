@@ -92,18 +92,18 @@ a{
   border: 10px solid #ddd8b8;
   z-index: -2;
   display:block;
-  animation: headspin .01s ease-in infinite alternate;
-  transition: transform .8s;
+  /* animation: headspin .01s ease-in infinite alternate;
+  transition: transform .8s; */
 
 }
-
+/* 
 #circle:hover{
   transform: rotateX(180deg);
-}
-
-@keyframes headspin{
+} */
+/* 
+keyframes headspin{
   0% { transform: rotateX(180deg) }
   50% { transform: rotateX(180deg) }
   75% { transform: rotateX(180deg) }
   100% { transform: rotateX(360deg) }
-}
+} */
