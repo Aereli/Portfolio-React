@@ -44,6 +44,7 @@ class Home extends React.Component{
         </div>
         </Router>
         <div className="home-face-container">
+          <div id="circle"></div>
           <img src={Face} alt="face" className="home-face-image"/>
         </div> 
         <footer className="home-footer">

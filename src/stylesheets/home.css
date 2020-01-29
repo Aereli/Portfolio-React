@@ -16,7 +16,11 @@
 }
 
 .home-face-container{
-  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
 }
 
 @media(max-width:420px){
@@ -32,7 +36,7 @@
 }
 
 .home-face-image{
-  width: 100%;
+  /* width: 100%; */
   height: inherit;
   display: block;
   margin-left: auto;
@@ -78,4 +82,28 @@
 a{
   text-decoration: none;
   color: black;
+}
+
+#circle{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  border: 10px solid #ddd8b8;
+  z-index: -2;
+  display:block;
+  animation: headspin .01s ease-in infinite alternate;
+  transition: transform .8s;
+
+}
+
+#circle:hover{
+  transform: rotateX(180deg);
+}
+
+@keyframes headspin{
+  0% { transform: rotateX(180deg) }
+  50% { transform: rotateX(180deg) }
+  75% { transform: rotateX(180deg) }
+  100% { transform: rotateX(360deg) }
 }
