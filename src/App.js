@@ -7,21 +7,27 @@ import Contact from './pages/contact'
 import Uses from './pages/uses'
 import Success from './pages/success'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import {useSpring, animated} from 'react-spring'
 
 
 const App = () => {
+  
+  const Fade = useSpring({
+    from: { opacity: 0 }, opacity: 1
+    })
+
   return(
-    <div>
+    <animated.div style={Fade}>
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/work" component={Work}/>
           <Route path="/contact" component={Contact}/>
-          <Route path="/uses" component={Uses}/>
+          <Route path="/contact/uses" component={Uses}/>
           <Route path="/success" component={Success}/>
         </Switch>
       </BrowserRouter>
-    </div>
+    </animated.div>
   )
 }
 

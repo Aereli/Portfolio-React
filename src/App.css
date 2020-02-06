@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -40,9 +42,15 @@
 h1, h2, h3{
   user-select: none;
   font-family: 'Megrim', cursive;
+  color: #E4E3E3;
 }
 
 a{
   /* text-decoration: teal; */
-  color: teal;
+  color: #E4E3E3;
+}
+
+html{
+  background: linear-gradient(138deg, rgba(144,119,140,1) 0%, rgba(68,55,66,1) 100%);
+
 }
