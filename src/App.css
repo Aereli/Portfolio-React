@@ -37,12 +37,22 @@
   }
 }
 
-h1, h2, h3{
+h1,
+h2 {
   user-select: none;
-  font-family: 'Megrim', cursive;
+  font-family: "Megrim", cursive;
+  color: #e4e3e3;
 }
 
-a{
+a {
   /* text-decoration: teal; */
-  color: teal;
+  color: #e4e3e3;
+}
+
+html {
+  background: linear-gradient(
+    138deg,
+    rgba(144, 119, 140, 1) 0%,
+    rgba(68, 55, 66, 1) 100%
+  );
 }
