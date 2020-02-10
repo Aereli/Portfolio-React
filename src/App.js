@@ -24,6 +24,7 @@ const App = () => {
           <Route path="/contact" component={Contact} />
           <Route path="/contact/uses" component={Uses} />
           <Route path="/success" component={Success} />
+          <Route path="/" render={() => <div> Error 404</div>} />
         </Switch>
       </BrowserRouter>
     </animated.div>
