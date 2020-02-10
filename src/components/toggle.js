@@ -1,21 +1,18 @@
-import React, { useState } from 'react'
-import {useSpring, animated} from 'react-spring'
-
+import React, { useState } from "react"
+import { useSpring, animated } from "react-spring"
 
 const Toggle = () => {
-  
-  const [isToggled, setToggle ] = useState(false)
+  const [isToggled, setToggle] = useState(false)
   const fade = useSpring({
     opacity: isToggled ? 1 : 0
   })
 
-  return(
+  return (
     <div>
-      <animated.h1 style={fade} >Full Stack Web Developer</animated.h1>
+      <animated.h1 style={fade}>Full Stack Web Developer</animated.h1>
       <button onClick={() => setToggle(!isToggled)}>I am a.. </button>
     </div>
   )
 }
-
 
 export default Toggle
