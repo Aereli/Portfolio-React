@@ -56,3 +56,8 @@ html {
     rgba(68, 55, 66, 1) 100%
   );
 }
+
+body {
+  background-image: url("./images/Ellipse5.svg");
+  background-repeat: no-repeat;
+}

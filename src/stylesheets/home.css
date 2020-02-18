@@ -39,7 +39,7 @@
 .home-circles {
   /* position: relative; */
 }
-
+/* 
 #circle1 {
   position: absolute;
   right: 1rem;
@@ -84,7 +84,7 @@
   border-radius: 100%;
   border: 20px solid #b3cbb9;
   display: block;
-}
+} */
 
 @media (max-width: 375px) {
   #circle1 {
