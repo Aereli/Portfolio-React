@@ -1,55 +1,54 @@
-.contact-oyanadel{
+.contact-oyanadel {
   text-align: center;
   font-size: 3rem;
 }
 
-.contact-title{
+.contact-title {
   text-align: center;
+  color: #b3cbb9;
 }
 
-.contact-form{
+.contact-form {
   text-align: center;
   font-size: 1rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-.contact-form label{
-font-family: 'Raleway', sans-serif;
+.contact-form label {
+  font-family: "Raleway", sans-serif;
 }
 
-.contact-form input{
+.contact-form input {
   border: solid 1px #393939;
   outline: none;
   width: 300px;
-  text-indent: .5rem;
+  text-indent: 0.5rem;
   font-size: 1rem;
-  font-family: 'Raleway', sans-serif;
-
+  font-family: "Raleway", sans-serif;
 }
 
-.contact-form textarea{
+.contact-form textarea {
   outline: none;
   border: solid 1px #393939;
   width: 400px;
   height: 100px;
-  text-indent: .5rem;
+  text-indent: 0.5rem;
   font-size: 1rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-@media(max-width:415px){
-  .contact-form textarea{
+@media (max-width: 415px) {
+  .contact-form textarea {
     width: 300px;
   }
 }
 
-.contact-form button{
+.contact-form button {
   border: solid 1px #393939;
   font-weight: 700;
   font-size: 1rem;
   outline: none;
   width: 70px;
   cursor: pointer;
-  font-family: 'Raleway', sans-serif;
-
+  font-family: "Raleway", sans-serif;
 }

@@ -7,6 +7,25 @@ class Contact extends React.Component {
     return (
       <>
         <h1 className="contact-oyanadel">Oyanadel</h1>
+        <div className="header">
+          <div className="header-title">
+            <a className="header-a" href="/">
+              Home
+            </a>
+          </div>
+          <ul className="header-links">
+            <li>
+              <a className="header-a" href="/work">
+                work
+              </a>
+            </li>
+            {/* <li>
+              <a className="header-a" href="/contact">
+                Contact
+              </a>
+            </li> */}
+          </ul>
+        </div>
         <h3 className="contact-title">Send me a message!</h3>
         <div className="contact-form">
           <form
