@@ -1,44 +1,49 @@
 body {
   margin: 0;
   height: 100vh;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.each-letter-lrg{
+.each-letter-lrg {
   transition: 1s;
   user-select: none;
-  font-family: 'Megrim', cursive;
+  font-family: "Megrim", cursive;
+  font-size: 1.5rem;
+  /* text-decoration: none; */
+}
+.each-letter-lrg a {
+  /* text-decoration: none; */
+  color: #e4e3e3;
 }
 
 .each-letter-lrg:hover {
   transition: color 0s;
-  color: #443742;
+  /* color: #443742; */
   font-size: 3.3rem;
 }
 
-.each-letter-lrg:nth-child(1n):hover{
+.each-letter-lrg:nth-child(1n):hover {
   color: #443742;
 }
 
-.each-letter-lrg:nth-child(2n):hover{
-  color: #B3CBB9;
+.each-letter-lrg:nth-child(2n):hover {
+  color: #b3cbb9;
 }
 
-.each-letter-lrg:nth-child(3n):hover{
-  color: #DCCCA3;
+.each-letter-lrg:nth-child(3n):hover {
+  color: #dccca3;
 }
 
-
-.each-letter-sml{
+.each-letter-sml {
   transition: 1s;
 }
 
@@ -48,14 +53,14 @@ code {
   font-size: 2rem;
 }
 
-.each-letter-sml:nth-child(1n):hover{
+.each-letter-sml:nth-child(1n):hover {
   color: #443742;
 }
 
-.each-letter-sml:nth-child(2n):hover{
-  color: #B3CBB9;
+.each-letter-sml:nth-child(2n):hover {
+  color: #b3cbb9;
 }
 
-.each-letter-sml:nth-child(3n):hover{
-  color: #DCCCA3;
+.each-letter-sml:nth-child(3n):hover {
+  color: #dccca3;
 }

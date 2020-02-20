@@ -1,17 +1,16 @@
 import React from "react"
-import { BrowserRouter as Router } from "react-router-dom"
 import "../stylesheets/home.css"
-import Face from "../images/face_three_parts.svg"
+// import Face from "../images/face_three_parts.svg"
 // import Github from '../images/github-brands.svg'
 import { IoLogoLinkedin } from "react-icons/io"
 import { FaGithub } from "react-icons/fa"
 import SplitString from "../components/stringSplitter"
 import Toggle from "../components/toggle"
-import Circles from "../components/paralax"
+import Circles from "../components/Circle"
 
 class Home extends React.Component {
   render() {
-    // const string2 = "work"
+    // const string2 = "© 2020, from scratch by Eric"
     // const splitString2 = string2.split("")
     // const string3 = "contact"
     // const splitString3 = string3.split("")
@@ -44,26 +43,26 @@ class Home extends React.Component {
           <Circles />
           {/* <img src={Face} alt="face" className="home-face-image"/> */}
         </div>
+        <div class="home-icons">
+          <a
+            index="home"
+            href="https://www.linkedin.com/in/eric-oyanadel/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IoLogoLinkedin className="footer-github" />
+          </a>
+          <a
+            index="home"
+            href="https://github.com/Aereli"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="footer-github" />
+          </a>
+        </div>
         <footer className="home-footer">
-          <div>
-            <a
-              index="home"
-              href="https://www.linkedin.com/in/eric-oyanadel/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IoLogoLinkedin className="footer-github" />
-            </a>
-            <a
-              index="home"
-              href="https://github.com/Aereli"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub className="footer-github" />
-            </a>
-          </div>
-          © {new Date().getFullYear()}, from scratch by Eric
+          <SplitString />
         </footer>
       </div>
     )

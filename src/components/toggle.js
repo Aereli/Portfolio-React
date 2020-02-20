@@ -10,7 +10,9 @@ const Toggle = () => {
   return (
     <div>
       <animated.h1 style={fade}>Full Stack Web Developer</animated.h1>
-      <button onClick={() => setToggle(!isToggled)}>I am a.. </button>
+      <button class="home-button" onClick={() => setToggle(!isToggled)}>
+        I am a..{" "}
+      </button>
     </div>
   )
 }

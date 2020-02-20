@@ -45,7 +45,7 @@ h2 {
 }
 
 a {
-  /* text-decoration: teal; */
+  text-decoration: none;
   color: #e4e3e3;
 }
 
@@ -55,9 +55,5 @@ html {
     rgba(144, 119, 140, 1) 0%,
     rgba(68, 55, 66, 1) 100%
   );
-}
-
-body {
-  background-image: url("./images/Ellipse5.svg");
-  background-repeat: no-repeat;
+  /* height: 100vh; */
 }
