@@ -1,19 +1,14 @@
-.work-header{
+.work-header {
   text-align: center;
   text-decoration: none;
   font-size: 3rem;
 }
 
-.work-title{
+.work-title-two {
   text-align: center;
-  font-size: 1.5rem;
-  margin-bottom: 5rem;
-}
-
-.work-title-two{
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  color: #846C5B;
+  font-family: "Raleway", sans-serif;
+  color: #b3cbb9;
+  margin-bottom: 3rem;
 }
 
 .work-image-container {
@@ -24,68 +19,68 @@
   grid-gap: 2rem;
 }
 
-.work-image-container p{
-  font-family: 'Raleway', sans-serif;
+.work-image-container p {
+  font-family: "Raleway", sans-serif;
 }
 
-.work-projects{
+.work-projects {
   width: 350px;
   height: 200px;
 }
 
-.work-github img{
+.work-github img {
   border: none;
   width: 50px;
 }
 
-.work-github img:hover{
-  opacity:0.5;
+.work-github img:hover {
+  opacity: 0.3;
 }
 
 /* ---------------------------- */
 
-.card{
+.card {
   position: relative;
   display: flex;
   justify-content: center;
   height: 300px;
-} 
-
-.front img{
-    left: 50%;
-    transition: ease-in-out .6s;
 }
 
-.back-content-middle{
+.front img {
+  left: 50%;
+  transition: ease-in-out 0.6s;
+}
+
+.back-content-middle {
   position: absolute;
   width: 300px;
   text-align: center;
 }
 
-.front,.back{
+.front,
+.back {
   position: absolute;
   overflow: hidden;
+  color: #e4e3e3;
 }
-
 
 .back {
   width: 350px;
 }
 
-card:hover > .front{
-  color: black;
+card:hover > .front {
+  color: #e4e3e3;
   width: 300px;
   height: 10px;
   overflow: hidden;
 }
 
-.card:hover > .back{
+.card:hover > .back {
   overflow: visible;
-    /* box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75); */
-
+  /* box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75); */
 }
 
-.card:hover > .front img{
-  opacity: .1;
-    /* box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75); */
+.card:hover > .front img {
+  opacity: 0.1;
+  /* box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75); */
 }

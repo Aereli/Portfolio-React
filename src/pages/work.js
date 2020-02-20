@@ -5,13 +5,14 @@ import Barhop from "../images/barhop.png"
 import Splttr from "../images/splttr.png"
 import { FaGithub, FaLink } from "react-icons/fa"
 import SplitString from "../components/stringSplitter"
+import Navbar from "../components/Nav"
 
 class Work extends React.Component {
   render() {
     return (
       <div>
         <h1 className="work-header">OYANADEL</h1>
-        <h3 className="work-title"> Past Web Projects</h3>
+        <Navbar />
         <h4 className="work-title-two">
           {" "}
           Please be patient as links load. They are on a free tier.{" "}
