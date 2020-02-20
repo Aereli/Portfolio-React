@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { useSpring, animated } from "react-spring"
+import "../stylesheets/home.css"
 
 const Toggle = () => {
   const [isToggled, setToggle] = useState(false)

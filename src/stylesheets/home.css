@@ -98,4 +98,13 @@
 
 .home-button {
   outline: none;
+  font-size: 1rem;
+  border: none;
+  transition: ease-in-out 0.5s;
+}
+
+.home-button:hover {
+  cursor: pointer;
+  color: #b3cbb9;
+  background-color: #443742;
 }
