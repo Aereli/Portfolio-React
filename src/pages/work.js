@@ -4,7 +4,7 @@ import Shipship from "../images/shipship.png"
 import Barhop from "../images/barhop.png"
 import Splttr from "../images/splttr.png"
 import { FaGithub, FaLink } from "react-icons/fa"
-import SplitString from "../components/stringSplitter"
+// import SplitString from "../components/stringSplitter"
 import Navbar from "../components/Nav"
 
 class Work extends React.Component {

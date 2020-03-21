@@ -1,6 +1,6 @@
 import React from "react"
 import "../stylesheets/contact.css"
-import SplitString from "../components/stringSplitter"
+// import SplitString from "../components/stringSplitter"
 
 class Contact extends React.Component {
   render() {
