@@ -13,24 +13,31 @@
   position: absolute;
   bottom: 1rem;
   width: 100%;
-  color: #e4e3e3;
+  color: #e4e3e3c0;
 }
 
-.footer-github {
+.home-icons {
+  /* display: grid;
+  grid-template: 1fr / 1fr;
+  place-items: center; */
+  text-align: center;
+}
+
+.my-face-image {
+  width: 200px;
+}
+
+.icons {
   display: inline-block;
+  color: #e4e3e3c0;
   margin: 1rem;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   transition: 0.5s;
+  filter: invert(80%);
 }
 
-.footer-github:hover {
-  color: #443742;
-  width: 40px;
-  height: 40px;
-}
-
-.footer-github:touch-action {
+.icons:hover {
   color: #443742;
   width: 40px;
   height: 40px;
@@ -43,6 +50,7 @@
 }
 
 .header-links {
+  padding: 0;
   margin: 0;
   list-style-type: none;
   display: flex;
@@ -53,7 +61,7 @@
 
 .header-a {
   text-decoration: none;
-  color: #e4e3e3;
+  color: #e4e3e3c0;
   font-size: 1.8rem;
   transition: transform 0.2s ease-in-out;
   display: inline-block;
@@ -77,11 +85,6 @@
   justify-content: space-between;
 }
 
-.home-icons {
-  display: flex;
-  justify-content: center;
-}
-
 @keyframes shine {
   from {
     -webkit-mask-position: 150%;
@@ -101,10 +104,14 @@
   font-size: 1rem;
   border: none;
   transition: ease-in-out 0.5s;
+  color: #b3cbb9;
+  background-color: transparent;
 }
 
 .home-button:hover {
   cursor: pointer;
   color: #b3cbb9;
-  background-color: #443742;
+  transform: scale(1.2);
+  opacity: 0.8;
+  /* background-color: #443742; */
 }

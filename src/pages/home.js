@@ -1,12 +1,11 @@
 import React from "react"
 import "../stylesheets/home.css"
-// import Face from "../images/face_three_parts.svg"
-// import Github from '../images/github-brands.svg'
-import { IoLogoLinkedin } from "react-icons/io"
-import { FaGithub } from "react-icons/fa"
 import SplitString from "../components/stringSplitter"
 import Toggle from "../components/toggle"
 import Circles from "../components/Circle"
+
+import github from "../images/github-brands.svg"
+import linkedin from "../images/linkedin.svg"
 
 class Home extends React.Component {
   render() {
@@ -40,26 +39,29 @@ class Home extends React.Component {
           <div>
             <Toggle />
           </div>
-          <Circles />
-          {/* <img src={Face} alt="face" className="home-face-image"/> */}
         </div>
         <div class="home-icons">
-          <a
-            index="home"
-            href="https://www.linkedin.com/in/eric-oyanadel/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <IoLogoLinkedin className="footer-github" />
-          </a>
-          <a
-            index="home"
-            href="https://github.com/Aereli"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub className="footer-github" />
-          </a>
+          <div className="face-image">
+            <Circles />
+          </div>
+          <div>
+            <a
+              index="home"
+              href="https://www.linkedin.com/in/eric-oyanadel/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="icons" src={github} alt="github" />
+            </a>
+            <a
+              index="home"
+              href="https://github.com/Aereli"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="icons" src={linkedin} alt="linkedin" />
+            </a>
+          </div>
         </div>
         <footer className="home-footer">
           <SplitString />
