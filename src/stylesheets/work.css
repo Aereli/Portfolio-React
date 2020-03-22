@@ -29,8 +29,12 @@
 }
 
 .work-github img {
-  border: none;
-  width: 50px;
+  display: inline-block;
+  color: #e4e3e3c0;
+  margin: 1rem;
+  width: 35px;
+  transition: 0.5s;
+  filter: invert(80%);
 }
 
 .work-github img:hover {
