@@ -7,10 +7,6 @@ import linkedin from "../images/linkedin_1.png"
 
 class Home extends React.Component {
   render() {
-    // const string2 = "© 2020, from scratch by Eric"
-    // const splitString2 = string2.split("")
-    // const string3 = "contact"
-    // const splitString3 = string3.split("")
     return (
       <div>
         <div className="header">
@@ -18,7 +14,7 @@ class Home extends React.Component {
             <a className="header-a" href="/">
               Eric Oyanadel
             </a>
-            <h3 id="under-construction"> Page is Under Construction</h3>
+            {/* <h3 id="under-construction"> Page is Under Construction</h3> */}
           </div>
           <ul className="header-links">
             <li>

@@ -6,6 +6,7 @@ import Splttr from "../images/splttr.png"
 import AereliArt from "../images/aereliArt.png"
 import github from "../images/github_1.png"
 import linkedin from "../images/linkedin_1.png"
+import link from "../images/link.svg"
 
 // import SplitString from "../components/stringSplitter"
 import Navbar from "../components/Nav"
@@ -39,7 +40,7 @@ class Work extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={linkedin} alt="linkedin" />
+                    <img src={link} alt="linkedin" />
                   </a>
                   <a
                     href="https://github.com/Aereli/ShipShip"
@@ -73,7 +74,7 @@ class Work extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={linkedin} alt="linkedin" />
+                    <img src={link} alt="linkedin" />
                   </a>
                   <a
                     href="https://github.com/Aereli/AereliArt"
@@ -101,7 +102,7 @@ class Work extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={linkedin} alt="linkedin" />
+                    <img src={link} alt="linkedin" />
                   </a>
                   <a
                     href="https://github.com/Aereli/Bar_hop_final"
@@ -129,7 +130,7 @@ class Work extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={linkedin} alt="linkedin" />
+                    <img src={link} alt="linkedin" />
                   </a>
                   <a
                     href="https://github.com/Aereli/Tip-Calculator"
