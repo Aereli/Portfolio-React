@@ -22,8 +22,8 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route path="/work" component={Work} />
           <Route path="/contact" component={Contact} />
-          <Route exact path="/contact/uses" component={Uses} />
-          <Route path="/success" component={Success} />
+          <Route exact path="/uses" component={Uses} />
+          <Route path="/contact/success" component={Success} />
           <Route path="/" render={() => <div> Error 404</div>} />
         </Switch>
       </BrowserRouter>

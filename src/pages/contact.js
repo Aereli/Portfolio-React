@@ -1,6 +1,5 @@
 import React from "react"
 import "../stylesheets/contact.css"
-// import SplitString from "../components/stringSplitter"
 
 class Contact extends React.Component {
   render() {
@@ -26,7 +25,7 @@ class Contact extends React.Component {
           <form
             name="contact"
             method="post"
-            action="POST"
+            action="/"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >

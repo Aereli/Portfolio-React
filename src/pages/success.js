@@ -1,6 +1,5 @@
-import React from 'react'
-import '../stylesheets/success.css'
-
+import React from "react"
+import "../stylesheets/success.css"
 
 class success extends React.Component {
   render() {
@@ -8,7 +7,9 @@ class success extends React.Component {
       <div className="success-container">
         <h1>Thanks!</h1>
         <button>
-          <a href="/" name="home">Return to Home</a>
+          <a href="/" name="home">
+            Return to Home
+          </a>
         </button>
       </div>
     )
