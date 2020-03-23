@@ -4,9 +4,8 @@ import Shipship from "../images/shipship.png"
 import Barhop from "../images/barhop.png"
 import Splttr from "../images/splttr.png"
 import AereliArt from "../images/aereliArt.png"
-
-import github from "../images/github-brands.svg"
-import linkedin from "../images/linkedin.svg"
+import github from "../images/github_1.png"
+import linkedin from "../images/linkedin_1.png"
 
 // import SplitString from "../components/stringSplitter"
 import Navbar from "../components/Nav"
@@ -29,12 +28,11 @@ class Work extends React.Component {
             </div>
             <div className="back">
               <div className="back-content-middle">
-                <h4>Tools Used</h4>
-                <p>React Js</p>
-                <p>React Spring + React Scroll</p>
-                <p>Ruby on Rails</p>
-                <p>Devise Gem</p>
-                <p>FormSpree</p>
+                <h4>React Js</h4>
+                <h4>React Spring + React Scroll</h4>
+                <h4>Ruby on Rails</h4>
+                <h4>Devise Gem</h4>
+                <h4>FormSpree</h4>
                 <div className="work-github">
                   <a
                     href="https://wyn-shipship.herokuapp.com/"
@@ -65,10 +63,10 @@ class Work extends React.Component {
             </div>
             <div className="back">
               <div className="back-content-middle">
-                <p>Gatsby</p>
-                <p>React</p>
-                <p>Graphql</p>
-                <p> SCSS</p>
+                <h4>Gatsby</h4>
+                <h4>React</h4>
+                <h4>Graphql</h4>
+                <h4> SCSS</h4>
                 <div className="work-github">
                   <a
                     href="https://www.aereli.com/"
@@ -95,9 +93,8 @@ class Work extends React.Component {
             </div>
             <div className="back">
               <div className="back-content-middle">
-                <h4>Tools Used</h4>
-                <p>React Js</p>
-                <p>HTML + CSS</p>
+                <h4>React Js</h4>
+                <h4>HTML + CSS</h4>
                 <div className="work-github">
                   <a
                     href="http://barhop-wyncode.herokuapp.com/"
@@ -124,9 +121,8 @@ class Work extends React.Component {
             </div>
             <div className="back">
               <div className="back-content-middle">
-                <h4>Tools Used</h4>
-                <p>Vanilla Javascript</p>
-                <p>CSS</p>
+                <h4>Vanilla Javascript</h4>
+                <h4>CSS</h4>
                 <div className="work-github">
                   <a
                     href="https://aereli.github.io/Tip-Calculator/"
