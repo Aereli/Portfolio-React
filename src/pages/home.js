@@ -34,24 +34,24 @@ class Home extends React.Component {
           <div className="face-image">
             <Face />
           </div>
-          <div>
-            <a
-              index="home"
-              href="https://www.linkedin.com/in/eric-oyanadel/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="icons" src={linkedin} alt="linkedin" />
-            </a>
-            <a
-              index="home"
-              href="https://github.com/Aereli"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="icons" src={github} alt="github" />
-            </a>
-          </div>
+        </div>
+        <div className="home-icons-contatiner">
+          <a
+            index="home"
+            href="https://www.linkedin.com/in/eric-oyanadel/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="icons" src={linkedin} alt="linkedin" />
+          </a>
+          <a
+            index="home"
+            href="https://github.com/Aereli"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img className="icons" src={github} alt="github" />
+          </a>
         </div>
         <footer className="home-footer">
           <SplitString />
