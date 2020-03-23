@@ -5,7 +5,6 @@ import Barhop from "../images/barhop.png"
 import Splttr from "../images/splttr.png"
 import AereliArt from "../images/aereliArt.png"
 import github from "../images/github_1.png"
-import linkedin from "../images/linkedin_1.png"
 import link from "../images/link.svg"
 
 // import SplitString from "../components/stringSplitter"

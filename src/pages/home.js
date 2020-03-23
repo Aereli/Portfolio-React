@@ -29,7 +29,7 @@ class Home extends React.Component {
             </li>
           </ul>
         </div>
-        <div className="home-body"></div>
+        {/* <div className="home-body"></div> */}
         <div class="home-icons">
           <div className="face-image">
             <Face />
