@@ -19,11 +19,6 @@ class Contact extends React.Component {
                 work
               </a>
             </li>
-            {/* <li>
-              <a className="header-a" href="/contact">
-                Contact
-              </a>
-            </li> */}
           </ul>
         </div>
         <h3 className="contact-title">Send me a message!</h3>

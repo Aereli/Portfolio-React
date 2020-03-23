@@ -5,7 +5,7 @@
 
 .contact-title {
   text-align: center;
-  color: #b3cbb9;
+  color: #31708e;
 }
 
 .contact-form {
@@ -16,10 +16,11 @@
 
 .contact-form label {
   font-family: "Raleway", sans-serif;
+  color: #31708e;
 }
 
 .contact-form input {
-  border: solid 1px #393939;
+  border: solid 1px #31708e;
   outline: none;
   width: 300px;
   text-indent: 0.5rem;
@@ -29,7 +30,7 @@
 
 .contact-form textarea {
   outline: none;
-  border: solid 1px #393939;
+  border: solid 1px #31708e;
   width: 400px;
   height: 100px;
   text-indent: 0.5rem;
@@ -44,7 +45,8 @@
 }
 
 .contact-form button {
-  border: solid 1px #393939;
+  border: solid 1px #31708e;
+  color: #31708e;
   font-weight: 700;
   font-size: 1rem;
   outline: none;
