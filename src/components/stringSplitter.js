@@ -6,7 +6,7 @@ function SplitString() {
   return (
     <>
       {splitstring.map(letter => (
-        <span className="each-letter-lrg">{letter}</span>
+        <span className="each-letter-sml">{letter}</span>
       ))}
     </>
   )

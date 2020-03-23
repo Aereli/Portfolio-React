@@ -1,11 +1,9 @@
 import React from "react"
 import "../stylesheets/home.css"
 import SplitString from "../components/stringSplitter"
-import Toggle from "../components/toggle"
-import Circles from "../components/Circle"
-
-import github from "../images/github-brands.svg"
-import linkedin from "../images/linkedin.svg"
+import Face from "../components/face"
+import github from "../images/github_1.png"
+import linkedin from "../images/linkedin_1.png"
 
 class Home extends React.Component {
   render() {
@@ -35,14 +33,10 @@ class Home extends React.Component {
             </li>
           </ul>
         </div>
-        <div className="home-body">
-          <div>
-            <Toggle />
-          </div>
-        </div>
+        <div className="home-body"></div>
         <div class="home-icons">
           <div className="face-image">
-            <Circles />
+            <Face />
           </div>
           <div>
             <a
@@ -51,7 +45,7 @@ class Home extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img className="icons" src={github} alt="github" />
+              <img className="icons" src={linkedin} alt="linkedin" />
             </a>
             <a
               index="home"
@@ -59,7 +53,7 @@ class Home extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img className="icons" src={linkedin} alt="linkedin" />
+              <img className="icons" src={github} alt="github" />
             </a>
           </div>
         </div>

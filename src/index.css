@@ -17,34 +17,37 @@ code {
   transition: 1s;
   user-select: none;
   font-family: "Megrim", cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   /* text-decoration: none; */
 }
 .each-letter-lrg a {
   /* text-decoration: none; */
-  color: #e4e3e3;
+  color: #f7f9fb;
 }
 
 .each-letter-lrg:hover {
   transition: color 0s;
   /* color: #443742; */
-  font-size: 3.3rem;
+  font-size: 3rem;
 }
 
 .each-letter-lrg:nth-child(1n):hover {
-  color: #443742;
+  color: #31708e;
 }
 
 .each-letter-lrg:nth-child(2n):hover {
-  color: #b3cbb9;
+  color: #f7f9fb;
 }
 
 .each-letter-lrg:nth-child(3n):hover {
-  color: #dccca3;
+  color: #687684;
 }
 
 .each-letter-sml {
   transition: 1s;
+  font-size: 1.5rem;
+  font-family: "Megrim", cursive;
+  cursor: pointer;
 }
 
 .each-letter-sml:hover {
@@ -54,13 +57,13 @@ code {
 }
 
 .each-letter-sml:nth-child(1n):hover {
-  color: #443742;
+  color: #31708e;
 }
 
 .each-letter-sml:nth-child(2n):hover {
-  color: #b3cbb9;
+  color: #f7f9fb;
 }
 
 .each-letter-sml:nth-child(3n):hover {
-  color: #dccca3;
+  color: #687684;
 }

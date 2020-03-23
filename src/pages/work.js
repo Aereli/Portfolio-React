@@ -4,7 +4,6 @@ import Shipship from "../images/shipship.png"
 import Barhop from "../images/barhop.png"
 import Splttr from "../images/splttr.png"
 import AereliArt from "../images/aereliArt.png"
-import { FaGithub, FaLink } from "react-icons/fa"
 
 import github from "../images/github-brands.svg"
 import linkedin from "../images/linkedin.svg"
