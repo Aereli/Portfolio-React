@@ -6,6 +6,7 @@ import Splttr from "../images/splttr.png"
 import AereliArt from "../images/aereliArt.png"
 import github from "../images/github_1.png"
 import link from "../images/link.svg"
+import covid from "../images/covid-19.png"
 
 // import SplitString from "../components/stringSplitter"
 import Navbar from "../components/Nav"
@@ -89,6 +90,33 @@ class Work extends React.Component {
 
           <div className="card">
             <div className="front">
+              <img className="work-projects" src={covid} alt="covid-19"></img>
+            </div>
+            <div className="back">
+              <div className="back-content-middle">
+                <h4>Next.js</h4>
+                <div className="work-github">
+                  <a
+                    href="https://wonderful-agnesi-d186b6.netlify.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={link} alt="link" />
+                  </a>
+                  <a
+                    href="https://github.com/Aereli/covid-19-facts"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={github} alt="github" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="front">
               <img className="work-projects" src={Barhop} alt="Barhop"></img>
             </div>
             <div className="back">
@@ -101,7 +129,7 @@ class Work extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={link} alt="linkedin" />
+                    <img src={link} alt="link" />
                   </a>
                   <a
                     href="https://github.com/Aereli/Bar_hop_final"
