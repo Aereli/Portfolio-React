@@ -45,7 +45,7 @@ code {
 
 .each-letter-sml {
   transition: 1s;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: "Megrim", cursive;
   cursor: pointer;
 }
@@ -53,7 +53,7 @@ code {
 .each-letter-sml:hover {
   transition: color 0s;
   color: #443742;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .each-letter-sml:nth-child(1n):hover {

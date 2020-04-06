@@ -25,20 +25,19 @@
 }
 
 .my-face-image {
-  width: 200px;
+  width: 160px;
 }
 
 .icons {
   display: inline-block;
   margin: 1rem;
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   transition: 0.5s;
 }
 
 .icons:hover {
-  width: 40px;
-  height: 40px;
+  opacity: 0.5;
 }
 
 .header {
@@ -61,7 +60,7 @@
   text-decoration: none;
   /* color: #e4e3e3c0; */
   color: #31708e;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   transition: transform 0.2s ease-in-out;
   display: inline-block;
 }
