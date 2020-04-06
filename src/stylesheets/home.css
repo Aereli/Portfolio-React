@@ -137,6 +137,13 @@
   margin: 0 0 3rem 0;
 }
 
+@media (max-width: 415px) {
+  .split-container {
+    margin: 0;
+    font-size: 2rem;
+  }
+}
+
 .home-icons-contatiner {
   text-align: center;
 }
